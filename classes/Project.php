@@ -24,6 +24,27 @@ class Project{
 
 	}
 
+	public function checkautotext($autotext){
+		$query = "SELECT * FROM tbl_user WHERE username LIKE '%$autotext%'";
+		$gettext = $this->db->select($query);
+
+		$result = '';
+		$result .= '<div class ="skill"><ul>';
+		if($gettext){
+			while($data = $gettext->fetch_assoc()){
+				$result .= '<li>'. $data['username']. '</li>' ;
+
+			}
+		}else{
+			$result .= '<li>'. 'no result found'. '</li>' ;
+
+		}
+		$result .='</ul></div>';
+		echo $result;
+
+
+	}
+
 	
 }
 ?>

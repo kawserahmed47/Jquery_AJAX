@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery.js"></script>
 	<script src="js/user.js"></script>
+	<script src="js/textbox.js"></script>
 </head>
 <body>
 
