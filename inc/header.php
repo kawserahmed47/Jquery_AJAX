@@ -13,6 +13,10 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/user.js"></script>
 	<script src="js/textbox.js"></script>
+	<script src="js/password.js"></script>
+	<script src="js/autorefresh.js"></script>
+	<script src="js/livesearch.js"></script>
+
 </head>
 <body>
 
